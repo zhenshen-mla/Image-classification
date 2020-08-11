@@ -52,7 +52,7 @@
     ```
     pip install tensorboardX   
     ```  
-  3. Users can download pre-trained models through [Baidu Netdisk](https://pan.baidu.com/s/1K0uje4jHRzlOHlgW7jSxPg)(```xsza```).  **Note:** when using the pre-trained model of the poly strategy, you need to make a little change in the name_dict of the load_file.py. 
+  3. Users can download pre-trained models through [Baidu Netdisk](https://pan.baidu.com/s/1K0uje4jHRzlOHlgW7jSxPg)(```xsza```).  **Note:** when using the pre-trained model of the poly strategy, you need to make a little change in the name_dict of the load_weights.py. 
 ## Usage   
   1. When the following command is executed, the cifar dataset is automatically downloaded and saved in directory /Image-classification/data/, and the network weights are saved in directory /Image-classification/weight/ during training.   
   2. Train the models in lr_step strategies:  
