@@ -1,9 +1,9 @@
 # Image-classification
 
-  Experiments on cifar10 with torch.         
+  Experiments on cifar-10 with torch.         
   
 ## Introduction
-  In this repo, we experiment on cifar10 dataset using three kinds of network structures: VGG, ResNet and GoogleNet.   
+  In this repo, we experiment on cifar-10 dataset[1] using three kinds of network structures: VGG[2], ResNet[3] and GoogleNet[4].   
 
 ## Models
   * `/models/PAUnit.py`: implementation of Parallel Attention Unit;  
