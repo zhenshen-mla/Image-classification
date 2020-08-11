@@ -3,16 +3,16 @@
   Experiments on cifar-10 with torch.         
   
 ## Introduction
-  In this repo, we experiment on cifar-10 dataset[1] using three kinds of network structures: VGG[2], ResNet[3] and GoogleNet[4].   
+  In this repo, we experiment on cifar-10 dataset[1] using three kinds of network structures: VGG[2], ResNet[3] and GoogLeNet[4].   
 
 ## Models
-  * `/models/PAUnit.py`: implementation of Parallel Attention Unit;  
-  * `/models/ResNet18.py`: baseline with resnet18 backbone;  
-  * `/models/ResNet50.py`: baseline with resnet50 backbone;  
-  * `/models/ResNet101.py`: baseline with resnet101 backbone;  
-  * `/models/Inceptionv3.py`: baseline with Inception network;  
-  * `/models/PAUnit.py`: resnet50 network with PAUnit;   
-  
+  * `/models/vgg.py`: implementation of VGG11;  
+  * `/models/resnet.py`: implementation of ResNet18;  
+  * `/models/googlenet.py`: implementation of GoogLeNet v1;  
+  * `/load_weights.py`: load the pre-training model for testing;  
+  * `/main_vgg.py`: train the VGG11 network;  
+  * `/main_resnet.py`: train the ResNet18 network;  
+  * `/main_google.py`: train the GoogLeNet v1 network;  
 ## Requirements  
 
   Python >= 3.6  
