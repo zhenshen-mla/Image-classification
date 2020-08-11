@@ -53,9 +53,9 @@
     pip install tensorboardX   
     ```
 ## Usage   
-  1. Download the dataset([Automatic triage for a photo series](https://phototriage.cs.princeton.edu/dataset.html)) and configure the data path.   
-  2. Train the baseline with ResNet backbone:  
-  ``` python train_resnet.py ```  
+  1. When the following command is executed, the cifar dataset is automatically downloaded and saved in directory /Image-classification/data/, and the network weights are saved in directory /Image-classification/weight/ during training.   
+  2. Train the models:  
+  ``` python main_vgg.py ```  
   3. Train the network with PAUnit:  
   ``` python train_pau.py ```  
   
