@@ -16,11 +16,11 @@
   **v1**  
   (1) 在3x3，5x5的卷积前面用1x1进行降维，可以减少参数量。（2）Inception内部是不同感受野的分支进行计算，然后对输出进行concatenate操作，从而产生稠密数据。  
   **v2**  
-  （1）考虑使用小卷积替代大卷积，即使用1x1，3x3代替5x5，甚至使用1x1代替3x3。（2）考虑1xn，nx1的联合使用来代替nxn。（3）在v2前向传播中，先使用v1的inception结构，再使用（1）中思想，末端使用（2）中思想。
+  （1）考虑使用小卷积替代大卷积，即使用1x1，3x3代替5x5，甚至使用1x1代替3x3。（2）考虑1xn，nx1的联合使用来代替nxn。（3）在v2前向传播中，先使用v1的inception结构，再使用（1）中思想，末端使用（2）中思想。  
   **v3**  
-  v3是对v2中的nxn进一步分解，将一个卷积拆为两个，并添加relu，网络进一步加深并增加了非线性。
+  v3是对v2中的nxn进一步分解，将一个卷积拆为两个，并添加relu，网络进一步加深并增加了非线性。  
   **v4**  
-  v4就是利用残差连接（Residual Connection)来改进v3。
+  v4就是利用残差连接（Residual Connection)来改进v3。  
 
 ## Files
   * `/models/vgg.py`: implementation of VGG11;  
@@ -67,3 +67,4 @@
   [5] VGG: https://zhuanlan.zhihu.com/p/41423739.  
   [6] ResNet: https://zhuanlan.zhihu.com/p/31852747.  
   [7] GoogLeNet: https://zhuanlan.zhihu.com/p/104671625.  
+  [8] https://github.com/kuangliu/pytorch-cifar
