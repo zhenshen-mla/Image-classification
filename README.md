@@ -44,6 +44,6 @@
   
 ## References
   [1] cifar-10 dataset: http://www.cs.toronto.edu/~kriz/cifar.html.  
-  [2] Karen Simonyan, Andrew Zisserman "Very Deep Convolutional Networks for Large-Scale Image Recognition."   
-  [3] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun "Deep Residual Learning for Image Recognition."    
-  [4] Christian Szegedy "Going deeper with convolutions."  
+  [2] Karen Simonyan, Andrew Zisserman. "Very Deep Convolutional Networks for Large-Scale Image Recognition."   
+  [3] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. "Deep Residual Learning for Image Recognition."    
+  [4] Christian Szegedy, Wei Liu, Yangqing Jia. "Going deeper with convolutions."  
