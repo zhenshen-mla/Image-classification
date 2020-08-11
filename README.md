@@ -3,7 +3,7 @@
   Experiments on cifar-10 with torch.         
   
 ## Introduction
-  In this repo, we experiment on cifar-10 dataset[1] using three kinds of network structures: VGG[2], ResNet[3] and GoogLeNet[4].   
+  In this repo, we experiment on cifar-10 dataset [1] using three kinds of network structures: VGG [2], ResNet [3] and GoogLeNet [4].   
 
 ## Files
   * `/models/vgg.py`: implementation of VGG11;  
