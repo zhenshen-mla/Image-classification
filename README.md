@@ -56,7 +56,7 @@
   1. When the following command is executed, the cifar dataset is automatically downloaded and saved in directory /Image-classification/data/, and the network weights are saved in directory /Image-classification/weight/ during training.   
   2. Train the models in lr_step strategies:  
   ``` python main_vgg.py ``` ``` python main_resnet.py ``` ``` python main_google.py ```   
-  3. And you can use *poly* strategy in a for training.
+  3. And you can use **poly** strategy in **/lr_scheduler.py** for training.  
   
 ## References
   [1] cifar-10 dataset: http://www.cs.toronto.edu/~kriz/cifar.html.  
