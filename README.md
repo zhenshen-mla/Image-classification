@@ -5,7 +5,7 @@
 ## Introduction
   In this repo, we experiment on cifar-10 dataset[1] using three kinds of network structures: VGG[2], ResNet[3] and GoogLeNet[4].   
 
-## Models
+## Files
   * `/models/vgg.py`: implementation of VGG11;  
   * `/models/resnet.py`: implementation of ResNet18;  
   * `/models/googlenet.py`: implementation of GoogLeNet v1;  
@@ -13,6 +13,7 @@
   * `/main_vgg.py`: train the VGG11 network;  
   * `/main_resnet.py`: train the ResNet18 network;  
   * `/main_google.py`: train the GoogLeNet v1 network;  
+  
 ## Requirements  
 
   Python >= 3.6  
@@ -20,20 +21,19 @@
   PyTorch >= 1.0  
   torchvision  
   tensorboardX  
-  sklearn  
   
 
 ## Installation
   1. Clone the repo:   
     ```
-    git clone https://github.com/zhenshen-mla/Series-Photo-Selection.git   
+    git clone https://github.com/zhenshen-mla/Image-classification.git   
     ```   
     ```
-    cd Series-Photo-Selection  
+    cd Image-classification  
     ```
   2. For custom dependencies:   
     ```
-    pip install matplotlib tensorboardX sklearn   
+    pip install tensorboardX   
     ```
 ## Usage   
   1. Download the dataset([Automatic triage for a photo series](https://phototriage.cs.princeton.edu/dataset.html)) and configure the data path.   
