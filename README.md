@@ -13,7 +13,12 @@
   **ResNet**  
   特点：ResNet网络是参考了VGG19网络，在其基础上进行了修改，并通过短路机制加入了残差单元。变化主要体现在ResNet直接使用stride=2的卷积做下采样，并且用global average pool层替换了全连接层。ResNet的一个重要设计原则是：当feature map大小降低一半时，feature map的数量增加一倍，这保持了网络层的复杂度。ResNet相比普通网络每两层间增加了短路机制，这就形成了残差学习。  
   **GoogLeNet**  
-  特点：
+  **v1**  
+  (1) 在3x3，5x5的卷积前面用1x1进行降维，可以减少参数量。（2）Inception内部是不同感受野的分支进行计算，然后对输出进行concatenate操作，从而产生稠密数据。  
+  **v2**  
+  （1）考虑使用小卷积替代大卷积，即使用1x1，3x3代替5x5，甚至使用1x1代替3x3。（2）考虑1xn，nx1的联合使用来代替nxn。（3）在v2前向传播中，先使用v1的inception结构，再使用（1）中思想，末端使用（2）中思想。
+  **v3**
+  **v4**  
 
 ## Files
   * `/models/vgg.py`: implementation of VGG11;  
