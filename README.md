@@ -52,7 +52,7 @@
     ```
     pip install tensorboardX   
     ```  
-  3. Users can download pre-trained models through [Baidu Netdisk](https://pan.baidu.com/s/1K0uje4jHRzlOHlgW7jSxPg)(```xsza```) to /Image-classification/weight/ directory.     
+  3. Users can download pre-trained models through [Baidu Netdisk](https://pan.baidu.com/s/10AUijzW4zZZS_Tw-NpZtrA)(```xsza```) to /Image-classification/weight/ directory.     
 ## Usage   
   1. When the following command is executed, the cifar dataset is automatically downloaded and saved in directory /Image-classification/data/, and the network weights are saved in directory /Image-classification/weight/ during training.   
   2. Train the models in lr_step strategies, and you can use **poly** strategy in **/lr_scheduler.py** for training.    
